@@ -1,0 +1,74 @@
+.djff table, .djff tbody, .djff td, .djff th{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+.djff td, .djff th{
+    padding: 0.1em;
+}
+
+.djff.nolinenos .linenos {
+    display: none;
+}
+
+.djff table {
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    empty-cells: show;
+    margin: 0;
+}
+
+.djff .old_lineno, .djff .new_lineno {
+    width: 2em;
+}
+
+.djff .old_lineno, .djff .new_lineno {
+    text-align: right;
+    font-size: 0.8em;
+    color: #666666;
+    border-right: 1px solid #dddddd;
+}
+
+.djff .ellipsis th{
+    background-color: #dddddd;
+}
+
+.djff .line .code {
+    padding-left: 0.5em;
+    font-family: monospace;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: pre-wrap;
+}
+
+.djff .add .code{
+    background-color: #DDFFDD;
+}
+
+.diff .del .code{
+    background-color: #FCCFCC;
+}
+
+.djff ins {
+    background-color: #99EE99;
+    text-decoration: none;
+}
+
+.djff del {
+    background-color: #E99E99;
+    text-decoration: none;
+}
+
+.djff .meta .old {
+    font-size: 90%;
+}
+
+.djff .meta .revision  {
+    font-size: 80%;
+}
